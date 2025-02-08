@@ -59,9 +59,9 @@ Ensure you have Python installed. You can install the required dependencies usin
 
 # 3. Setting Up
 
-*Download the face recognition data (such as names.pkl and faces_data.pkl) if not included in the repo.
+*Download the face recognition data (such as` names.pkl` and `faces_data.pkl`) if not included in the repo.
 
-*Place the face recognition files (secret.key, background_img.jpg, etc.) in the appropriate directories.
+*Place the face recognition files (`secret.key`, `background_img.jpg`, etc.) in the appropriate directories.
 
 *Ensure you have a webcam for face detection and capture.
 
@@ -82,7 +82,7 @@ Casting Vote: Once authenticated, your vote will be recorded in a CSV file.
 
 #Security Features
 ---
-Encryption: All sensitive data such as Aadhaar numbers and facial features are encrypted using the Fernet encryption algorithm.
+Encryption: All sensitive data such as Aadhaar numbers and facial features are encrypted using the` Fernet `encryption algorithm.
 
 Face Recognition: The system uses a pre-trained model to compare the live feed with stored facial data to ensure the voter’s authenticity.
 
