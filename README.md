@@ -1,6 +1,6 @@
 # Secure Voting System
-Overview
----
+# Overview
+
 The Secure Voting System is an application designed to ensure secure and authenticated voting using face recognition and Aadhaar number verification. This system aims to provide a digital platform for elections while ensuring voter authenticity and security.
 
 The system works as follows:
@@ -12,7 +12,7 @@ Voting Process: The voter selects a party to vote for after passing the authenti
 Data Security: Votes are securely recorded with timestamps, and voter information is encrypted.
 
 # Features
----
+
 Face Recognition: Authenticates the voter via facial recognition technology to ensure they are eligible to vote.
 
 Aadhaar Number Verification: Collects the Aadhaar number for added security and verification.
@@ -26,7 +26,7 @@ Secure Data Storage: Voter data (such as face data and Aadhaar) is encrypted and
 Audio Feedback: Provides audio feedback to guide the voter through the process.
 
 # Technologies Used
----
+
 Python: The core language for the system.
 
 OpenCV: For face detection and image processing.
@@ -44,20 +44,20 @@ CSV: For storing votes and voter data.
 Aadhaar Number Verification: Basic validation (you may later integrate with a real API for Aadhaar verification if necessary).
 
 # Installation
----
+
 # 1.Clone the Repository
 
 Clone the repository to your local machine using the following command:
 
 `git clone https://github.com/yourusername/Secure-Voting-System.git`
 
-2. Install Dependencies
+# 2. Install Dependencies
 
 Ensure you have Python installed. You can install the required dependencies using the following command:
 
 `pip install -r requirements.txt`
 
-3. Setting Up
+# 3. Setting Up
 
 *Download the face recognition data (such as names.pkl and faces_data.pkl) if not included in the repo.
 
@@ -65,13 +65,13 @@ Ensure you have Python installed. You can install the required dependencies usin
 
 *Ensure you have a webcam for face detection and capture.
 
-4. Running the Application
+# 4. Running the Application
 
 Run the following command to start the voting system:
 
 `python SecureVoting_system.py`
 # Usage
----
+
 Start Voting: Press the "Start Voting" button to begin the voting process.
 
 Authentication:
