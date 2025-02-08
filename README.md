@@ -48,10 +48,9 @@ Aadhaar Number Verification: Basic validation (you may later integrate with a re
 # 1.Clone the Repository
 Clone the repository to your local machine using the following command:
 
-bash
-Copy
+`Copy
 Edit
-git clone https://github.com/yourusername/Secure-Voting-System.git
+git clone https://github.com/yourusername/Secure-Voting-System.git`
 2. Install Dependencies
 Ensure you have Python installed. You can install the required dependencies using the following command:
 
