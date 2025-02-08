@@ -46,29 +46,30 @@ Aadhaar Number Verification: Basic validation (you may later integrate with a re
 # Installation
 ---
 # 1.Clone the Repository
+
 Clone the repository to your local machine using the following command:
 
-`Copy
-Edit
-git clone https://github.com/yourusername/Secure-Voting-System.git`
+`git clone https://github.com/yourusername/Secure-Voting-System.git`
+
 2. Install Dependencies
+
 Ensure you have Python installed. You can install the required dependencies using the following command:
 
-nginx
-Copy
-Edit
-pip install -r requirements.txt
+`pip install -r requirements.txt`
+
 3. Setting Up
-Download the face recognition data (such as names.pkl and faces_data.pkl) if not included in the repo.
-Place the face recognition files (secret.key, background_img.jpg, etc.) in the appropriate directories.
-Ensure you have a webcam for face detection and capture.
+
+*Download the face recognition data (such as names.pkl and faces_data.pkl) if not included in the repo.
+
+*Place the face recognition files (secret.key, background_img.jpg, etc.) in the appropriate directories.
+
+*Ensure you have a webcam for face detection and capture.
+
 4. Running the Application
+
 Run the following command to start the voting system:
 
-nginx
-Copy
-Edit
-python SecureVoting_system.py
+`python SecureVoting_system.py`
 # Usage
 ---
 Start Voting: Press the "Start Voting" button to begin the voting process.
